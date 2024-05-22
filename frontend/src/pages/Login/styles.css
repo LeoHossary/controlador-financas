@@ -1,0 +1,152 @@
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 35vw;
+  height: 65vh;
+  margin-left: 91px;
+  margin-right: 5vw;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.login h1 {
+  margin-bottom: 11px;
+
+  color: #7978d9;
+  font-family: Rubik, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.login h2 {
+  align-self: flex-start;
+
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: red;
+}
+
+.login h3 {
+  align-self: flex-start;
+
+  margin-top: 31px;
+  margin-bottom: 3px;
+
+  color: #484848;
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.login input {
+  width: 449px;
+  height: 63px;
+  margin-top: 8px;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #555;
+
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.login button {
+  width: 449px;
+  height: 49px;
+  margin: 38px 0 12px 0;
+  border: none;
+  border-radius: 5px;
+
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 700;
+
+  color: #fff;
+  background-color: #7978d9;
+
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px;
+  position: relative;
+
+  margin-left: 5vw;
+  width: 614px;
+}
+
+.textArea button {
+  width: 284px;
+  height: 49px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 700;
+
+  color: #fff;
+  background-color: #7978d9;
+
+  cursor: pointer;
+}
+
+.bigText span {
+  color: #7978d9;
+}
+
+.bigText h1 {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.textArea p {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,130 @@
+.container-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(3, 3, 3, 0.5);
+}
+
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 611px;
+  height: 879px;
+  border-radius: 20px;
+  padding: 61px 62px 52px 62px;
+
+  background-color: #fff;
+}
+
+.form-modal button {
+  width: 246px;
+  height: 52px;
+
+  margin: 38px 0 12px 0;
+  border: none;
+  border-radius: 5px;
+
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #fff;
+  background-color: #7978d9;
+
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-header h1 {
+  font-family: Rubik, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+
+  color: #000;
+}
+
+.modal-header img {
+  cursor: pointer;
+}
+
+.modal-header img:hover {
+  transform: scale(1.03);
+}
+
+.type-buttons {
+  display: flex;
+
+  width: 100%;
+}
+
+.type-buttons input {
+  height: 52px;
+  width: 100%;
+
+  margin-top: 8px;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#entry {
+  background-color: rgba(58, 159, 241, 1);
+  color: #fff;
+
+}
+
+#output {
+  background-color: #fa8c10;
+  color: #fff;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.informations input,
+select {
+  width: 100%;
+  height: 63px;
+  margin-top: 8px;
+  padding: 16px;
+  border: 1px solid #555;
+  border-radius: 5px;
+
+  font-family: rubik, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.informations label {
+  margin-top: 26px;
+
+  font-family: rubik, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
